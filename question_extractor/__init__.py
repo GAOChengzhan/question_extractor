@@ -179,7 +179,7 @@ async def generate_answer(question, source):
 #---------------------------------------------------------------------------------------------
 # FILE PROCESSING
 
-async def process_file(file_path, text, progress_counter, verbose=True,max_qa_pairs=30):
+async def process_file(file_path, text, progress_counter, verbose=True,max_qa_pairs=50):
     """
     Asynchronously processes a file, extracting questions and generating answers concurrently.
     
